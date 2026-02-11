@@ -26,7 +26,7 @@ st.write("Enter a news article below and check whether it is Real or Fake.")
 # -----------------------------
 @st.cache_data
 def load_data():
-    df = pd.read_csv("/content/Fake_Real_Data(in).csv", engine='python')
+    df = pd.read_csv("Fake_Real_Data(in).csv", engine='python')
     return df
 
 df = load_data()
