@@ -88,4 +88,4 @@ if st.button("Predict"):
         # Assuming:
         # 0 = Fake
         # 1 = Real
-        fake_prob = round(prob_dict.get(0, 0)
+        fake_prob = round(prob_dict.get(0, 0))
